@@ -14,25 +14,37 @@ Questões retiradas do livro-texto da disciplina.
   Texto cifrado: mensagem embaralhada produzida pelo algoritmo.
 - Algoritmo de decriptação: inverso da encriptação, recebe o texto cifrado e a chave e retorna o texto original.
 
+&nbsp;
+
 **(b) Quais são as duas funções básicas usadas nos algoritmos de encriptação?** 
 
 Substituição (mapeamento de cada elemento do texto claro em outro elemento) e transposição (rearranjo dos elementos do texto claro).
+
+&nbsp;
 
 **(c) Qual é a diferença entre uma cifra de bloco e uma cifra de fluxo?** 
 
 A de bloco processa a entrada de um bloco de elementos por vez, produzindo a saída para cada um deles. Já a cifra em fluxo, processa os elementos continuamente, retornando a saída de um elemento de cada vez.
 
+&nbsp;
+
 **(d) Quais são as duas técnicas gerais para atacar uma cifra?** 
 
 Criptoanálise (explora o algoritmo e talvez características ou amostras de pares de texto claro-texto cifrado) e ataque por força bruta (teste de todas as chaves possíveis).
+
+&nbsp;
 
 **(e) Quais são os dois problemas com o one-time pad?**
 
 Criar grandes quantidades de chaves aleatórias, já que para cada encriptação será usada uma chave diferente. E também a distribuição e proteção da chave, pois a cada mensagem uma chave de mesmo tamanho do texto é necessária para o emissor e receptor.
 
+&nbsp;
+
 **(f) O que é uma cifra de transposição?** 
 
 Algum tipo de permutação nas letras do texto claro.
+
+&nbsp;
 
 **(g) O que é esteganografia?**
 
@@ -50,11 +62,15 @@ Algum tipo de permutação nas letras do texto claro.
 
 Não há limitações específicas sobre o valor de 'b' em termos de tornar a cifra um-para-um. O valor de 'b' é um deslocamento e não afeta a reversibilidade da cifra. Entretanto, o valor de 'a' deve ser escolhido de forma que o processo seja inversível (possua um inverso multiplicativo módulo 26).
 
+&nbsp;
+
 **(b) determine quais valores de a não são permitidos.**
 
 Para garantir que a cifra seja "um-para-um" (ou injetiva), é necessário que a função de criptografia seja reversível, ou seja, que seja possível reverter o processo para decifrar a mensagem. Portanto:
 
 'a' e 26 devem ser primos entre si (coprimos): Isso significa que 'a' não pode ter nenhum fator em comum com 26, exceto 1. Se 'a' e 26 não forem coprimos, a cifra não será injetiva porque alguns caracteres do texto claro mapearão para os mesmos caracteres no texto cifrado, tornando a decodificação impossível.  
+
+&nbsp;
 
 **(c) ofereça uma afirmação geral sobre quais valores de a são e não são permitidos. Justifique-a.**
 
@@ -93,9 +109,7 @@ Para decriptar, precisamos do inverso multiplicativo modular do determinante (ob
 
 Determinante da chave = detChave = (7 \* 9) – (-4 \* -5) = 63 – 20 = 43
 
-Inverso modular = (detChave \* i) mod 26 = 1
-
-`                                 `(43 \* i) mod 26 = 1
+Inverso modular = (detChave \* i) mod 26 = 1 --> (43 \* i) mod 26 = 1
 
 i = 23, pois (43 \* 23) mod 26 = 989 mod 26 = 1
 

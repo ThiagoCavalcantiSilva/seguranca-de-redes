@@ -7,7 +7,7 @@ Questões retiradas do livro-texto da disciplina.
 
 ## 1. O que é a arquitetura de segurança OSI?
 
-`	`Um padrão internacional, desenvolvido no contexto da arquitetura de protocolo OSI (Open System Interconnection), para sistematizar requisitos de segurança e técnicas a serem empregadas. Proporcionou o estabelecimento de recursos de segurança para produtos e serviços.
+Um padrão internacional, desenvolvido no contexto da arquitetura de protocolo OSI (Open System Interconnection), para sistematizar requisitos de segurança e técnicas a serem empregadas. Proporcionou o estabelecimento de recursos de segurança para produtos e serviços.
 
 &nbsp;
 
@@ -21,14 +21,14 @@ Por exemplo, um interceptador em uma troca de mensagens. No contexto passivo, es
 
 ## 3. Liste e defina resumidamente as categorias de ataques passivos e ativos à segurança.
 
-`	`Passivo:
+Passivo:
 
 - Vazamento de conteúdo de mensagem: quando um interceptador acessa a informação trocada entre remetente e destinatário.
 
 - Análise de tráfego: um oponente não tem acesso ao conteúdo, porém observa a frequência de comunicação e tamanho das mensagens, além de ter meios para determinar local e identidade dos interlocutores.
 
 
-`	`Ativo:
+Ativo:
 
 - Disfarce: quando uma entidade finge ser outra. Geralmente inclui outras formas de ataque.
 

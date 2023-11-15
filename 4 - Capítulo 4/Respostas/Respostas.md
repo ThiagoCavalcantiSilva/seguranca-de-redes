@@ -6,19 +6,19 @@ Questões retiradas do livro-texto da disciplina. Conforme conversamos em sala d
 
 ## 1. Defina resumidamente, um grupo, um anel, um corpo.
 
-`	`Grupo é um conjunto de elementos com uma operação binária (•) seja adição, multiplicação ou alguma operação matemática, que associa a cada par ordenado (a, b) de elementos em G um elemento (a • b) em G, obedecendo 4 axiomas: fechamento, associativo, elemento identidade e elemento inverso.
+Grupo é um conjunto de elementos com uma operação binária (•) seja adição, multiplicação ou alguma operação matemática, que associa a cada par ordenado (a, b) de elementos em G um elemento (a • b) em G, obedecendo 4 axiomas: fechamento, associativo, elemento identidade e elemento inverso.
 
-`	`Caso satisfaça o axioma da comutatividade, é chamado de grupo abeliano.
+Caso satisfaça o axioma da comutatividade, é chamado de grupo abeliano.
 
-`	`Um anel R, às vezes indicado por {R, +, ×}, é um conjunto de elementos com duas operações binárias, chamadas adição e multiplicação, de forma que, para todo a, b, c em R, deverá obedecer aos axiomas anteriores (ou seja, ser um grupo abeliano), além do fechamento sob multiplicação, associatividade da multiplicação e leis distributivas.
+Um anel R, às vezes indicado por {R, +, ×}, é um conjunto de elementos com duas operações binárias, chamadas adição e multiplicação, de forma que, para todo a, b, c em R, deverá obedecer aos axiomas anteriores (ou seja, ser um grupo abeliano), além do fechamento sob multiplicação, associatividade da multiplicação e leis distributivas.
 
-`	`Basicamente, um anel é um conjunto em que podemos realizar adição, subtração [a – b = a + (–b)] e multiplicação sem sair dele.
+Basicamente, um anel é um conjunto em que podemos realizar adição, subtração [a – b = a + (–b)] e multiplicação sem sair dele.
 
-`	`O anel pode possuir o axioma da comutatividade da multiplicação, identidade multiplicativa e sem divisores de zero, neste caso, torna-se um domínio integral.
+O anel pode possuir o axioma da comutatividade da multiplicação, identidade multiplicativa e sem divisores de zero, neste caso, torna-se um domínio integral.
 
-`	`Um corpo F, às vezes indicado por {F, +, ×}, é um conjunto de elementos com duas operações binárias, chamadas de adição e multiplicação, de modo que, para todo a, b, c em F, obedece aos axiomas anteriores, ou seja, é um domínio integral, além de possuir o inverso multiplicativo.
+Um corpo F, às vezes indicado por {F, +, ×}, é um conjunto de elementos com duas operações binárias, chamadas de adição e multiplicação, de modo que, para todo a, b, c em F, obedece aos axiomas anteriores, ou seja, é um domínio integral, além de possuir o inverso multiplicativo.
 
-`	`Basicamente, um corpo é um conjunto em que podemos realizar adição, subtração, multiplicação e divisão sem sair dele. A divisão é definida com a seguinte regra: a/b = a(b<sup>–1</sup>).
+Basicamente, um corpo é um conjunto em que podemos realizar adição, subtração, multiplicação e divisão sem sair dele. A divisão é definida com a seguinte regra: a/b = a(b<sup>–1</sup>).
 
 &nbsp;
 
@@ -221,7 +221,7 @@ O inverso multiplicativo é x² + 1.
 
 <b>(a) (7x + 2) − (x<sup>2</sup> + 5)</b>
 
-` `0x² + 7x + 2
+0x² + 7x + 2
 
 <u>- x² - 0x - 5</u>
 
