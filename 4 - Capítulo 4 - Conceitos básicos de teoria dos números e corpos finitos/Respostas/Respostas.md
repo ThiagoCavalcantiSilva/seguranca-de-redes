@@ -114,7 +114,7 @@ O inverso multiplicativo de um elemento em um conjunto Zn (conhecido como anel d
 
 # 5. Determine os MDC:
 
-(a) mdc(24140, 16762): 
+**(a) mdc(24140, 16762):**
 
 24140 = 1 \* 16762 + 7378
 
@@ -134,7 +134,7 @@ Portanto, o mdc é 34.
 
 &nbsp;
 
-## (b) mdc(4655, 12075).
+**(b) mdc(4655, 12075).**
 
 |4655|12075|3|
 | :-: | :-: | :-: |
