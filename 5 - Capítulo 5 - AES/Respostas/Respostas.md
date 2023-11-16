@@ -127,7 +127,7 @@ Após incluir a chave da rodada (XOR com w<sub>4</sub> e w<sub>5</sub>): 0000 01
 
 **(a) XOR do material da subchave com a entrada da função f.**
 
-` `A transformação respectiva no AES é a AddRoundKey (transformação direta de adição de chave da rodada), onde os bits de estado passam por um XOR bit a bit com os bits da chave da rodada.
+A transformação respectiva no AES é a AddRoundKey (transformação direta de adição de chave da rodada), onde os bits de estado passam por um XOR bit a bit com os bits da chave da rodada.
 
 &nbsp;
 
