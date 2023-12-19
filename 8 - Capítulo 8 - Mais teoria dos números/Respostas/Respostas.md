@@ -95,11 +95,11 @@ M/7 = 15.
 
 O conjunto de congruências lineares, tem as soluções:
 
-35b<sub>1</sub> ≡ 1 (mod 3) à  b<sub>1</sub> = 2
+35b<sub>1</sub> ≡ 1 (mod 3) &rarr;  b<sub>1</sub> = 2
 
-21b<sub>2</sub> ≡ 1 (mod 5) à  b<sub>2</sub> = 1
+21b<sub>2</sub> ≡ 1 (mod 5) &rarr;  b<sub>2</sub> = 1
 
-15b<sub>3</sub> ≡ 1 (mod 7) à  b<sub>3</sub> = 1
+15b<sub>3</sub> ≡ 1 (mod 7) &rarr;  b<sub>3</sub> = 1
 
 Então, x ≡ 2 \* 2 \* 35 + 3 \* 1 \* 21 + 2 \* 1 \* 15 \* 233 (mod 105) = 23.
 
